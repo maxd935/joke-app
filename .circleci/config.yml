@@ -87,7 +87,7 @@ jobs:
             equal: [master, << pipeline.git.branch >>]
           steps:
             - deploy-command:
-                HEROKU_APP_NAME: joke-app-janvier
+                HEROKU_APP_NAME: joke-app-j
                 BRANCH: master
 
 
